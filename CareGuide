@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareGuide</title>
+    <style>
+
+        .cordefundo2{
+            background-color: #ebe2db;
+            color: black ;
+        }
+
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .video-container:hover{
+            filter: brightness(70%);
+            transition: filter 0.3s ease;
+        }
+
+        .video-item {
+            margin: 20px;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .video-item:hover {
+            transform: translateY(-5px);
+            
+        }
+
+        .video-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .botão1 {
+            display: inline-block;
+            width: 300px;
+            height: 50px;
+            margin: 0 auto 20px;
+            background: #dfc8d6;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .botão1:hover {
+            background: #c8a6bd; /* Cor mais escura */
+            transform: scale(1.1); /* Crescimento */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para o último parágrafo */
+        #videos-interativos p {
+            margin-bottom: 60px; /* Espaço adicional para o rodapé */
+        }
+    </style>
+</head>
+<body class="cordefundo2">
+    <header>
+        <h1>CareGuide</h1>
+        <nav>
+            <ul>
+                <li><a href="#videos-educativos" class="botão1">Aprendendo a cozinhar</a></li>
+                <li><a href="#videos-divertidos" class="botão1">Aprendendo sobre carros</a></li>
+                <li><a href="#videos-inspiradores" class="botão1">Dicas do dia a dia</a></li>
+                <li><a href="#videos-interativos" class="botão1">Aprendendo sobre financeiro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="videos-educativos">
+        <h2>Aprendendo a cozinhar</h2>
+        <div class="video-container">
+            <a href="https://www.youtube.com/watch?v=kTqCmk672j4&list=PLrLt2hopxXhVoclZexxqJqNeyaegv5RXr&index=5" target="_blank">
+                <img src="tutorialcomida1.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=r4z_fIgDFwA" target="_blank">
+                <img src="tutorialcomida2.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=YTh_U2dbto4&list=PLrLt2hopxXhVoclZexxqJqNeyaegv5RXr&index=10" target="_blank">
+                <img src="tutorialcomida3.jpg" width="300" height="250">
+            </a>
+        </div>
+        
+        <p>Explore deliciosas aventuras na cozinha com nossos vídeos educativos! Os jovens aprenderão habilidades culinárias básicas, como cortar, misturar e assar, enquanto descobrem os segredos por trás de pratos saborosos. Preparem-se para se divertir e criar memórias deliciosas juntos!</p>
+    </section>
+
+    <section id="videos-divertidos">
+        <h2>Aprendendo sobre carros</h2>
+        <div class="video-container">
+
+            <a href="https://www.youtube.com/watch?v=H27wGdjuR6M&list=PLrLt2hopxXhXnO-OcExfHTdWTu_Ev-r7x&index=18" target="_blank">
+                <img src="tutorialcarro1.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=NtKB57D7z4k&list=PLrLt2hopxXhXnO-OcExfHTdWTu_Ev-r7x&index=14" target="_blank">
+                <img src="tutorialcarro2.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=3CIhIuGzvec&list=PLrLt2hopxXhXnO-OcExfHTdWTu_Ev-r7x&index=8" target="_blank">
+                <img src="tutorialcarro3.jpg" width="300" height="250">
+            </a>
+        </div>
+
+        <p>Os vídeos são para ajudar os jovens em situações inusitadas onde o carro pode falhar, ascender uma luz no painel ou simplesmente ter que trocar o pneu do carro.</p>
+    </section>
+
+    <section id="videos-inspiradores">
+        <h2>Dicas do dia a dia</h2>
+        <div class="video-container">
+
+            <a href="https://www.youtube.com/watch?v=TATblk1LUQI&list=PLrLt2hopxXhXbPHgiQFGT3jIYey8-aUil" target="_blank">
+                <img src="tutorialdiaadia1.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=vYurKVxFXPI&list=PLrLt2hopxXhXbPHgiQFGT3jIYey8-aUil&index=4" target="_blank">
+                <img src="tutorialdiaadia2.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=gAaBk52Yzeg&list=PLrLt2hopxXhXbPHgiQFGT3jIYey8-aUil&index=5" target="_blank">
+                <img src="tutorialdiaadia3.jpg" width="300" height="250">
+            </a>
+
+        </div>
+        <p>Nossos vídeos são uma fonte incrível de dicas práticas para te ajudar nas tarefas do dia a dia. Você vai aprender desde como dar o nó na gravata perfeito até os truques para fazer uma barba impecável. Essas habilidades podem parecer pequenas, mas são importantes para a sua jornada rumo à independência e autoconfiança. </p>
+    </section>
+
+    <section id="videos-interativos">
+        <h2>Aprendendo sobre financeiro</h2>
+        <div class="video-container">
+
+            <a href="https://www.youtube.com/watch?v=ExW5LtiV2Z4&list=PLrLt2hopxXhUExf-HZJfo4fOWC_ZwmZWz" target="_blank">
+                <img src="tutorialfinanceiro1.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=pA5qxDTuQJs&list=PLrLt2hopxXhUExf-HZJfo4fOWC_ZwmZWz&index=7" target="_blank">
+                <img src="tutorialfinanceiro2.jpg" width="300" height="250" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.youtube.com/watch?v=HNR4aN7JWXU&list=PLrLt2hopxXhUExf-HZJfo4fOWC_ZwmZWz&index=12" target="_blank">
+                <img src="tutorialfinanceiro3.jpg" width="300" height="250">
+            </a>
+        </div>
+
+        <p>Com nossos vídeos interativos, você terá a chance de descobrir os segredos do mundo das finanças de uma maneira divertida e emocionante. Vamos explorar desde os conceitos básicos de economia até estratégias inteligentes de planejamento financeiro e gerenciamento de dinheiro. Esses vídeos vão te ajudar a construir as bases para um futuro financeiramente estável e próspero. Estou aqui para te guiar e apoiar em cada passo do caminho. Juntos, vamos garantir que você esteja preparado para enfrentar qualquer desafio financeiro que a vida possa te oferecer!".</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CareGuide. Todos
